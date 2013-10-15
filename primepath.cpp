@@ -3,7 +3,7 @@
 //category : primes,simple BFS
 //logic : find primes upto 10,000 using sieve then for each all possible digitwise transition is recorded 
 //and then as unit distance simple BFS is used for recording this then once reached the destination return 
-//value else atlast return a negative score if it can be reached. 
+//value else atlast return a negative score if it cannot be reached. 
 #include<stdio.h>
 #include<stdlib.h>
 #include<queue>
